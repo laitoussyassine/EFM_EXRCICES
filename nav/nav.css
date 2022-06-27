@@ -1,0 +1,145 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+nav .text_nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .text_nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav .text_nav ul li {
+    padding: 0 20px;
+}
+
+nav .text_nav ul li i {
+    margin-left: 5px;
+}
+
+
+nav .text_nav ul a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+nav .text_nav img {
+    object-fit: contain;
+    height: 40px;
+}
+
+nav .bottons_login button {
+    width: 80px;
+    padding: 10px 15px;
+    background-color: #11802c;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+nav .bottons_login button:hover {
+    opacity: 0.8;
+}
+
+nav .bottons_login button:active {
+    opacity: 0.6;
+}
+
+nav .bottons_login button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.last_section {
+    height: calc(100vh - 67.61px);
+    background: url(./image/WhatsApp\ Image\ 2022-06-27\ at\ 16.50.11.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.last_section h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.last_section h4 {
+    color: #ffb5bd;
+    font-size: 20px;
+}
+
+.last_section form {
+    display: flex;
+    align-items: center;
+}
+
+.last_section form input {
+    width: 450px;
+    padding: 15px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border: none;
+}
+
+.last_section form input:focus {
+    outline: none;
+    border: none;
+}
+
+.last_section form button {
+    width: 70px;
+    padding: 10px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #11802c;
+    border: none;
+    cursor: pointer;
+}
+
+.last_section form button:hover {
+    opacity: 0.8;
+}
+
+.last_section form button:active {
+    opacity: 0.6;
+}
+
+.last_section form button i {
+    color: white;
+}
+
+.last_section a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.last_section .btn_serche {
+    height: 25px;
+}
